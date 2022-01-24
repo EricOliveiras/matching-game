@@ -1,10 +1,11 @@
 import './style.css'
 
 function CardGame () {
-  return `
+  return (`
     <article class="card-game">
       <img src="src/images/alura-pixel.png" alt="logo">
     </article>`
+    )
 };
 
 export default CardGame;
